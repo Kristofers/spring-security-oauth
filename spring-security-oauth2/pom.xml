@@ -14,7 +14,7 @@
 
 	<properties>
 		<jackson1.version>1.9.13</jackson1.version>
-		<jackson2.version>2.3.2</jackson2.version>
+		<jackson2.version>2.12.7.1</jackson2.version>
 		<spring.security.jwt.version>1.0.2.RELEASE</spring.security.jwt.version>
 	</properties>
 
@@ -174,14 +174,14 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.3.3</version>
+			<version>4.5.13</version>
             <optional>true</optional>
 		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.13.1</version>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>
